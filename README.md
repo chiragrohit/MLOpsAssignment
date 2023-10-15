@@ -19,3 +19,4 @@ docker build -t project-name .
 - Endpoint: https://mlopsassingmentsvc-chfxmr7jba-el.a.run.app/
 # Automated Testing
 - Test if the the model works as expected
+- Added .github/workflows/test.yml for testing
