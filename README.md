@@ -18,5 +18,5 @@ docker build -t project-name .
  - ```gcloud run deploy [service name] --source .```
 - Endpoint: https://mlopsassingmentsvc-chfxmr7jba-el.a.run.app/
 # Automated Testing
-To ensure that the model functions as expected, automated testing has been set up. 
-The testing is defined in the .github/workflows/test.yml file.
+- To ensure that the model functions as expected, automated testing has been set up. 
+- The testing is defined in the .github/workflows/test.yml file.
