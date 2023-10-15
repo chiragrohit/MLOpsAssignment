@@ -10,3 +10,10 @@ This project can be containerized using Docker to make it easily deployable.
 ```bash
 docker build -t project-name .
 ```
+# Cloud Deployment
+- Using Cloud Run by Google Cloud
+- Create a new project in Cloud Run
+- Initialize using gcloud cmd line interface
+ - ```gcloud init```
+ - ```gcloud run deploy [service name] --source .```
+- Endpoint: https://mlopsassingmentsvc-chfxmr7jba-el.a.run.app/
