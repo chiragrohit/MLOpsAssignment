@@ -1,0 +1,14 @@
+name: auto-testing
+on: [push]
+jobs:
+  run:
+    runs-on: [ubuntu-latest]
+    container: python:3.9-slim
+    steps:
+      - uses: actions/checkout@v2
+      - name: test-check
+        run: |
+          # Your ML workflow goes here
+          pip install -r requirements.txt
+          cd tests
+          python test.py
